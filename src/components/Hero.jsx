@@ -16,9 +16,15 @@ export default function Hero() {
           <a href="#projects" className="btn btn-primary">
             View Projects
           </a>
-          <a href="\Resumes.pdf" target="_blank" className="btn btn-outline">
-            View Resume
-          </a>
+          <a
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-outline"
+>
+  View Resume
+</a>
+
         </div>
       </div>
     </section>
