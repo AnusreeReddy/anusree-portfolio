@@ -17,7 +17,7 @@ export default function Hero() {
             View Projects
           </a>
           <a
-  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  href={`${import.meta.env.BASE_URL}/resume.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="btn btn-outline"
